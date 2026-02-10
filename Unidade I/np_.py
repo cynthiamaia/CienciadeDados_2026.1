@@ -27,3 +27,19 @@ print(b)
 # =========================
 z = np.zeros((2, 3)) #apenas zeros
 print(z)
+ones = np.ones((3,2)) #apenas com valores 1
+print(ones)
+
+# =========================
+# Operaçoes básicas
+# =========================
+a = np.array([1,2,5])
+print(np.sum(a)) 
+#soma todos os elementos do array
+print(np.min(a))
+print(np.max(a))
+print(np.argmax(a)) #indice do maior valor
+print(np.argmin(a))#indice do menor valor
+b = np.array([[1,2,3], 
+              [1,6,7]])
+print(b.shape) #quantidade de linhas e colunas
